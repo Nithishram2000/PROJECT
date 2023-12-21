@@ -1,0 +1,114 @@
+.D1{
+    width: 100%;
+    display: flex;
+}
+.a1,.a2{
+    display: inline;
+}
+.a1{
+    width: 70%;
+}
+.a2{
+    width: 30%;
+    margin: 0px 0px 0px 120px;
+}
+
+.D2{
+    width: 100%;
+    display: flex;
+}
+.b1,.b2{
+    display: inline;
+}
+.b1{
+    width: 65%;
+}
+.b2{
+    width: 35%;
+    margin: 70px 0px 0px 80px;
+}
+
+
+.D3{
+    width: 100%;
+    display: flex;
+}
+.c1,.c2{
+    display: inline;
+}
+.c1{
+    width: 65%;
+}
+.c2{
+    width: 35%;
+    margin: 70px 0px 0px 120px;
+}
+
+
+.D4{
+    width: 100%;
+    display: flex;
+}
+.d1,.d2{
+    display: inline;
+}
+.d1{
+    width: 65%;
+}
+.d2{
+    width: 35%;
+    margin: 70px 0px 0px 120px;
+}
+
+
+.D5{
+    width: 100%;
+    display: flex;
+}
+.e1,.e2{
+    display: inline;
+}
+.e1{
+    width: 65%;
+}
+.e2{
+    width: 35%;
+    margin: 90px 0px 0px 180px;
+}
+
+p{
+    margin: 10px 20px 0px 20px;
+  }
+  h1{
+    margin: 20px 0px 0px 20px;
+  }
+
+
+  .con{
+    padding: 2rem;
+  }
+
+  .con1{
+    position: relative;
+    
+  }
+  .con2{
+    display: flex;
+    overflow-x: hidden;
+    box-shadow: 0 1.5rem 3rem -0.75 black;
+    border-radius: 0.5rem;
+  }
+
+  .con2 img{
+    flex: 1 0 100%;
+    animation: slide 10s infinite;
+  }
+
+  @keyframes slide{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-200%);
+    }
+  }

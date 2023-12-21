@@ -1,0 +1,42 @@
+ul,li{
+    display:inline-block;
+    list-style: none;
+}
+li{
+    padding: 5px 14px;
+}
+
+.D1{
+              
+    width: 100%;
+    display: flex;
+ } 
+
+ .a1{
+    width: 40%;
+    
+  }
+.a2 input{
+      width: 60%;
+  margin-top: 10px;
+  height: 20px;
+  width: 300px;
+ 
+
+      
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* input{
+               
+
+            } */
+            
+           
+
+            /* .a1,.a2{
+                /* display: inline-flex; */
+            /* } */ 
